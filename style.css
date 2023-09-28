@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100% ;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+#main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(154, 88, 145);
+}
+#panel{
+    overflow: hidden;
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+    background-color: aliceblue;
+}
+
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(242, 159, 231);
+}
+.box{
+    display: flex;
+    color: rgb(154, 88, 145);
+    gap: 10px;
+}
+.small-box{
+    background-color: white;
+    color: rgb(154, 88, 145);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight:600 ;
+}
+
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    gap: 20px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:rgb(242, 159, 231) ;
+}
+
+.bubble:hover{
+    background-color: rgb(213, 112, 199);
+    cursor: pointer;
+}
